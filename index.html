@@ -4,12 +4,48 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#485A3A">
-  <meta name="description" content="Instituto Raiz Viva — simulação acadêmica de mídia própria para uma ONG de preservação ambiental.">
-  <title>Instituto Raiz Viva</title>
-  <link rel="stylesheet" href="./style.css?v=1">
+  <meta name="description" content="Simulação acadêmica de mídia própria para atividade universitária.">
+  <title>Instituto Raiz Viva — Simulação Acadêmica</title>
+  <link rel="stylesheet" href="./style.css?v=2">
 </head>
 <body>
-  <main class="app-shell">
+  <section id="simulationGate" class="simulation-gate" aria-labelledby="simulationTitle">
+    <div class="simulation-gate-card">
+      <span class="simulation-topline">ATIVIDADE UNIVERSITÁRIA • CENÁRIO FICTÍCIO</span>
+
+      <h1 id="simulationTitle">ISTO É UMA<br>SIMULAÇÃO.</h1>
+
+      <p class="simulation-lead">
+        Este site foi criado exclusivamente para uma atividade de faculdade sobre
+        comunicação organizacional e mídia própria.
+      </p>
+
+      <div class="simulation-warning">
+        <strong>Nenhuma parceria, doação, declaração ou apoio apresentado aqui deve ser interpretado como real.</strong>
+        <p>
+          Nomes, imagens e situações envolvendo figuras públicas aparecem apenas como
+          elementos de um cenário acadêmico fictício.
+        </p>
+      </div>
+
+      <button id="acceptSimulation" class="gate-button" type="button">
+        Entendo que seja uma simulação para uma atividade universitária, desejo seguir
+      </button>
+
+      <small>
+        Ao continuar, você acessará uma página demonstrativa criada para ilustrar
+        estratégias de comunicação no modelo PESO.
+      </small>
+    </div>
+  </section>
+
+  <main id="siteContent" class="app-shell" hidden>
+    <div class="persistent-simulation-banner">
+      <strong>SIMULAÇÃO ACADÊMICA</strong>
+      <span>Conteúdo fictício criado exclusivamente para atividade universitária.</span>
+      <button id="showSimulationNotice" type="button">Ver aviso</button>
+    </div>
+
     <section class="window hero-window">
       <div class="titlebar">
         <span>INSTITUTO RAIZ VIVA — mídia própria</span>
@@ -27,7 +63,7 @@
         <header class="brand-row">
           <div class="brand-lockup">
             <div class="brand-mark">
-              <span class="leaf-mark" aria-hidden="true">❧</span>
+              <div class="leaf-mark" aria-hidden="true">❧</div>
               <div>
                 <div class="wordmark">Raiz Viva</div>
                 <div class="product-mark">Instituto de preservação ambiental</div>
@@ -141,6 +177,63 @@
           </div>
         </section>
 
+        <section class="section-block creator-section">
+          <div class="section-title">
+            <div>
+              <span class="kicker">CENÁRIO FICTÍCIO DE ENGAJAMENTO</span>
+              <h2>Quando a causa encontra novas vozes.</h2>
+            </div>
+            <span class="fiction-pill">SIMULAÇÃO</span>
+          </div>
+
+          <div class="creator-grid">
+            <div class="creator-image-wrap">
+              <img
+                src="./assets/podpah-simulacao.png"
+                alt="Imagem utilizada em cenário acadêmico fictício envolvendo os apresentadores do Podpah"
+              >
+              <span class="image-disclaimer">IMAGEM USADA EM SIMULAÇÃO ACADÊMICA</span>
+            </div>
+
+            <article class="creator-copy">
+              <span class="scenario-label">CENÁRIO CRIADO PARA A ATIVIDADE</span>
+              <h3>Podpah como amplificador da campanha</h3>
+
+              <p>
+                Nesta simulação, os apresentadores do <strong>Podpah</strong> aparecem
+                como apoiadores da campanha do Instituto Raiz Viva, ajudando a levar a
+                pauta ambiental para uma comunidade que já acompanha o programa nas redes sociais.
+              </p>
+
+              <div class="fiction-card">
+                <span>ELEMENTO FICTÍCIO Nº 1</span>
+                <strong>Grande doação à campanha</strong>
+                <p>
+                  O cenário acadêmico considera uma contribuição expressiva dos apresentadores
+                  como ponto de partida para gerar repercussão e incentivar novas doações.
+                </p>
+              </div>
+
+              <div class="fiction-card">
+                <span>ELEMENTO FICTÍCIO Nº 2</span>
+                <strong>Menção no episódio 676 com Lucas Inutilismo</strong>
+                <p>
+                  Para fins da atividade, simulamos uma menção espontânea à campanha durante
+                  o episódio, funcionando como exemplo de circulação da pauta para além dos
+                  canais próprios da ONG.
+                </p>
+              </div>
+
+              <div class="creator-note">
+                <strong>Importante:</strong>
+                Podpah, seus apresentadores e Lucas Inutilismo não estão sendo apresentados aqui
+                como apoiadores reais desta causa. Doação, parceria e menção ao episódio são
+                inteiramente fictícias e existem apenas neste exercício universitário.
+              </div>
+            </article>
+          </div>
+        </section>
+
         <section id="impacto" class="section-block impact-section">
           <div class="section-title">
             <div>
@@ -242,6 +335,6 @@
   </main>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="./app.js?v=1"></script>
+  <script src="./app.js?v=2"></script>
 </body>
 </html>

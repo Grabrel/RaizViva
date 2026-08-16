@@ -1,48 +1,53 @@
-# Instituto Raiz Viva — Home Page
+# Instituto Raiz Viva — Simulação Acadêmica v2
 
-Simulação acadêmica de **mídia própria (Owned Media)** para o exercício sobre o modelo PESO.
+Home page criada exclusivamente para uma atividade universitária sobre comunicação organizacional e modelo PESO.
 
-## Identidade visual
+## Aviso inicial obrigatório
 
-A estrutura visual foi inspirada no projeto Nervi/Cofrinho.exe:
+Antes de visualizar o site, o visitante encontra uma tela em destaque informando que:
 
-- janela principal com barra superior;
-- cards e painéis;
-- bordas arredondadas;
-- hierarquia tipográfica forte;
-- menu de três pontos para compartilhar/copiar link.
+- o site é uma simulação;
+- foi criado apenas para uma atividade universitária;
+- nenhuma parceria, doação, fala ou apoio deve ser interpretado como real;
+- nomes, imagens e situações envolvendo figuras públicas são usados apenas como elementos de um cenário acadêmico fictício.
 
-A paleta foi alterada para:
+O acesso só é liberado após o botão:
 
-- verde-musgo como cor principal;
-- bordô como cor secundária;
-- fundos claros e neutros.
+**“Entendo que seja uma simulação para uma atividade universitária, desejo seguir”**
 
-## Conteúdo
+Depois do acesso, um selo permanente de **SIMULAÇÃO ACADÊMICA** continua visível no topo da página.
 
-A home contém:
+## Cenário fictício com Podpah
 
-- apresentação da causa;
-- explicação da atuação;
-- indicadores ilustrativos de impacto;
-- bloco de transparência;
-- chamada para apoio;
-- aviso explícito de que se trata de uma simulação acadêmica.
+A página inclui uma seção acadêmica simulando:
 
-Todos os números apresentados na página são fictícios e estão identificados como ilustrativos.
+- apoio dos apresentadores do Podpah à campanha;
+- uma grande doação fictícia;
+- uma menção fictícia durante o episódio 676 com Lucas Inutilismo.
 
-## Publicar no GitHub Pages
+A própria seção informa novamente que esses elementos não são fatos reais.
 
-Crie um repositório e envie para a raiz:
+## Imagem
+
+A imagem fornecida para a atividade está em:
+
+`assets/podpah-simulacao.png`
+
+## Publicação no GitHub Pages
+
+Envie para a raiz do repositório:
 
 - `index.html`
 - `style.css`
 - `app.js`
+- `README.md`
+- `.nojekyll`
+- pasta `assets`
 
-Depois, em **Settings → Pages**, escolha:
+Depois:
 
-- Source: `Deploy from a branch`
-- Branch: `main`
-- Folder: `/ (root)`
+Settings → Pages → Deploy from a branch → main → /(root)
 
-O GitHub exibirá o endereço público após o deploy.
+## Observação
+
+Este projeto não representa uma ONG real e não solicita pagamentos reais.
