@@ -56,3 +56,16 @@ Este projeto não representa uma ONG real e não solicita pagamentos reais.
 ## Correção v2.1
 
 Corrigido o controle visual da tela de aviso inicial. O CSS agora respeita explicitamente o atributo `hidden`, permitindo que o botão de aceite revele a home da simulação.
+
+
+## v2.2 — imagem incorporada no HTML
+
+A fotografia usada na seção do cenário fictício foi incorporada diretamente ao `index.html` em formato Data URI.
+
+Isso elimina dependência de:
+
+- pasta `assets`;
+- nome exato do arquivo;
+- caminhos relativos no GitHub Pages.
+
+Para publicar esta versão, `index.html`, `style.css` e `app.js` já são suficientes para exibir a imagem.
