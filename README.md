@@ -1,4 +1,4 @@
-# Instituto Raiz Viva — Simulação Acadêmica v2
+# Instituto Raiz Viva — Simulação Acadêmica v2.1
 
 Home page criada exclusivamente para uma atividade universitária sobre comunicação organizacional e modelo PESO.
 
@@ -51,3 +51,8 @@ Settings → Pages → Deploy from a branch → main → /(root)
 ## Observação
 
 Este projeto não representa uma ONG real e não solicita pagamentos reais.
+
+
+## Correção v2.1
+
+Corrigido o controle visual da tela de aviso inicial. O CSS agora respeita explicitamente o atributo `hidden`, permitindo que o botão de aceite revele a home da simulação.

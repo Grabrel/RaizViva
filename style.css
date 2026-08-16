@@ -990,3 +990,9 @@ body.simulation-locked {
     font-size: 58px;
   }
 }
+
+/* v2.1 — garante que as telas controladas pelo atributo hidden realmente desapareçam */
+.simulation-gate[hidden],
+#siteContent[hidden] {
+  display: none !important;
+}
