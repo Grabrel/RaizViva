@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="150" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+  <title id="title">Nervi — Cofrinho.exe</title>
+  <desc id="desc">Versão clara da marca Nervi para fundos escuros.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 61 H116" stroke="#F6EEE4" stroke-width="6"/>
+    <path d="M116 61 C124 61 126 82 136 82 C146 82 153 30 166 30 C179 30 184 93 197 93 C207 93 211 43 216 43" stroke="#D4433A" stroke-width="7"/>
+    <path d="M216 61 H278" stroke="#F6EEE4" stroke-width="6"/>
+  </g>
+  <text x="302" y="76" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="500" letter-spacing="1" fill="#FFF8EE">nervi</text>
+  <text x="305" y="112" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" letter-spacing="6" fill="#E7D8CB">Cofrinho.</text>
+  <text x="441" y="112" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" letter-spacing="4" fill="#D4433A">exe</text>
+</svg>

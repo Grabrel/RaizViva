@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Ícone Nervi">
+  <rect x="12" y="12" width="232" height="232" rx="54" fill="#FFFDF8"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M43 130 H87" stroke="#1D2025" stroke-width="10"/>
+    <path d="M87 130 C96 130 99 158 110 158 C122 158 131 89 146 89 C160 89 166 171 181 171 C191 171 196 109 203 109" stroke="#B3261E" stroke-width="12"/>
+    <path d="M203 130 H218" stroke="#1D2025" stroke-width="10"/>
+  </g>
+</svg>

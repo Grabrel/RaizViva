@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="92" viewBox="0 0 330 92" role="img" aria-label="Nervi">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 39 H72" stroke="#F6EEE4" stroke-width="5"/>
+    <path d="M72 39 C78 39 80 55 87 55 C94 55 100 20 109 20 C118 20 121 63 131 63 C138 63 141 29 145 29" stroke="#D4433A" stroke-width="6"/>
+    <path d="M145 39 H185" stroke="#F6EEE4" stroke-width="5"/>
+  </g>
+  <text x="198" y="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="47" font-weight="500" fill="#FFF8EE">nervi</text>
+</svg>
